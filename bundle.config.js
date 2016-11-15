@@ -3,7 +3,7 @@ var paths = {
 }
 
 var defaultConfig = {
-  formats: ['es6', 'umd'],
+  formats: ['es', 'umd'],
   outputFolder: paths.dest,
   moduleNameJS: 'RedsiftSchedule',
   mapsDest: '.',
@@ -18,7 +18,7 @@ var defaultConfig = {
 
 var bundleConfig = {
   mainJS: {
-    name: 'ui-rs-schedule',
+    name: 'd3-rs-schedule',
     indexFile: './src/index.js'
   }
 };

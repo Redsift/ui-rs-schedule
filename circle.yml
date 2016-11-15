@@ -3,7 +3,7 @@ machine:
     version: 5.10.1
   environment:
     S3_BUCKET: redsift-static
-    NAME: ui-rs-schedule
+    NAME: d3-rs-schedule
 
 checkout:
   pre:
@@ -18,7 +18,7 @@ dependencies:
 
 test:
   override:
-    - /bin/bash -c "[ -s ${CIRCLE_ARTIFACTS}/dist/js/ui-rs-schedule.umd-es2015.min.js ]"
+    - /bin/bash -c "[ -s ${CIRCLE_ARTIFACTS}/dist/js/d3-rs-schedule.umd-es2015.min.js ]"
 
 deployment:
   production:
