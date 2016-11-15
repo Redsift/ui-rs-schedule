@@ -1,19 +1,19 @@
 {
-  "name": "@redsift/d3-rs-schedule",
-  "version": "0.1.0",
+  "name": "@redsift/ui-rs-schedule",
+  "version": "0.2.0",
   "description": "A customizable schedule component.",
   "keywords": [
     "redsift-ui-component",
     "redsift-ui",
     "redsift"
   ],
-  "repository": "https://github.com/redsift/d3-rs-schedule",
-  "homepage": "https://github.com/redsift/d3-rs-schedule",
+  "repository": "https://github.com/redsift/ui-rs-schedule",
+  "homepage": "https://github.com/redsift/ui-rs-schedule",
   "license": "MIT",
   "author": {
     "name": "Martin Hecher"
   },
-  "main": "./dist/js/d3-rs-schedule.umd-es2015.js",
+  "main": "./dist/js/ui-rs-schedule.umd-es2015.js",
   "jsnext:main": "./src/index.js",
   "scripts": {
     "start": "npm run build && npm run serve",
